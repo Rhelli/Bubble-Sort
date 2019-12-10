@@ -6,7 +6,7 @@ This project consists of creating a Ruby ['Bubble-Sort' algorithm](https://www.t
 
 # 🎬 Demonstration
 
-<a href="bubble-sort.gif" target="_blank"> <img alt="Demonstration" src="bubble-sort.gif"/></a>
+<a href="bubble-sort.webm" target="_blank"> <img alt="Demonstration" src="bubble-sort.webm"/></a>
 
 ****
 
