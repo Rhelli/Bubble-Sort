@@ -4,11 +4,10 @@ This project is part of a series of projects to be completed by students of [Mic
 
 This project consists of creating a Ruby ['Bubble-Sort' algorithm](https://www.tutorialspoint.com/data_structures_algorithms/bubble_sort_algorithm.htm) to sort an array in ascending order. This assignment focused on creating both a traditional 'bubble-sort' algorithm as well as one which uses *<yield>* to pass a block to our method.
 
-# 🎬 Demonstration
+### 🎬 Demonstration
 
 <a href="bubble-sort.gif" target="_blank"> <img alt="Demonstration" src="bubble-sort.gif"/></a>
 
-****
 
 ## 🔮 The Project Brief
 
