@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-# rubocop:disable Metrics/ClassLength
-
 def bubble_sort(arr)
   swap = true
   while swap
@@ -25,12 +23,10 @@ def bubble_sort_by(arr)
     (arr.length - 1).times do |x|
       b = arr[x + 1]
       arr[x], arr[x + 1] = arr[x + 1], arr[x] if yield(arr[x], b) >= 0
-      swap = true  if yield(arr[x], b) >= 0
+      swap = true if yield(arr[x], b) >= 0
     end
   end
   print arr
 end
 
 bubble_sort_by(arr) { |a, b| a - b }
-
-# rubocop:enable
