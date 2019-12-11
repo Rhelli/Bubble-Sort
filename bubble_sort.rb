@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# rubocop:disable Metrics/AbcSize 
+# rubocop:disable Metrics/AbcSize
 
 def bubble_sort(arr)
   swap = true
@@ -33,8 +33,8 @@ end
 
 bubble_sort_by(arr) { |a, b| a - b }
 
-bubble_sort_by(["hi","hello","hey"]) do |left,right| 
-  left.length - right.length 
-end 
+unsorted = %w[hi hello hey]
+puts bubble_sort_by(unsorted) { |left, right| right.length - left.length }
+puts bubble_sort(unsorted)
 
 # rubocop:enable Metrics/AbcSize
