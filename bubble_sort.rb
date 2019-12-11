@@ -11,10 +11,8 @@ def bubble_sort(arr)
       arr[x], arr[x + 1] = arr[x + 1], arr[x] if arr[x] > arr[x + 1]
     end
   end
-  print arr
+  arr
 end
-
-arr = [1, 4, 5, 66, 7, 3, 12_312, 2]
 
 bubble_sort(arr)
 
@@ -28,13 +26,7 @@ def bubble_sort_by(arr)
       swap = true if yield(arr[x], b) >= 0
     end
   end
-  print arr
+  arr
 end
-
-bubble_sort_by(arr) { |a, b| a - b }
-
-unsorted = %w[hi hello hey]
-puts bubble_sort_by(unsorted) { |left, right| right.length - left.length }
-puts bubble_sort(unsorted)
 
 # rubocop:enable Metrics/AbcSize
