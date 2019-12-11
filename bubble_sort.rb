@@ -1,7 +1,6 @@
 # frozen_string_literal: true
-def bubble_sort(arr)
 
-  return arr if arr.size <= 1
+def bubble_sort(arr)  
   swap = true
       while swap
         swap = false
@@ -17,8 +16,7 @@ arr = [1, 4, 5, 66, 7, 3, 12312, 2]
 
 bubble_sort(arr)
 
-def bubble_sort_by(arr)
-  return arr if arr.size <= 1
+def bubble_sort_by(arr)  
   swap = true
   while swap
     swap = false
