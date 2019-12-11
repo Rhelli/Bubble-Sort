@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 # rubocop:disable Metrics/ClassLength
 
 def bubble_sort(arr)
@@ -31,3 +32,5 @@ def bubble_sort_by(arr)
 end
 
 bubble_sort_by(arr) { |a, b| a - b }
+
+# rubocop:enable
